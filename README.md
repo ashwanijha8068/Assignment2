@@ -1,3 +1,5 @@
+More information about my approach and the challenges faced:- https://dark-shield-55e.notion.site/Admin-Dashboard-3bc214bb876e4453ae3cd23288548689
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
