@@ -1,0 +1,138 @@
+.pagination-container .pagination {
+  
+    right: 0;
+    bottom:10px;
+    margin-bottom:0px;
+   margin-right:10px;
+   margin-top:20px;
+   float:right;
+  }
+  .pagination-container{
+ 
+    padding: 20px;
+  border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 40px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+ 
+  .pagination-container .page-item .page-link {
+    background-color: white;
+    color: black;  
+  }
+  .header-column {
+    color:#696969 !important;
+    font-weight: normal;
+  }
+  .search-icon {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #f5f5f5;
+    transition: width 0.4s ease-in-out;
+    margin-left:10px;
+    border: 1px solid #696969;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+   
+  
+  .search-icon:focus {
+    width: 300px;
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  }
+  
+  .search-icon::placeholder {
+    color: #888;
+  }
+  
+  .search-icon:hover {
+    background-color: #e8f0fe;
+  }
+  
+.global-delete{
+    float:right;
+    margin-top:25px;
+    margin-bottom: 15px;
+    margin-right:10px;
+    border-radius: 5px;
+}
+.edit-button {
+   
+   
+  margin-right: 5px;
+ 
+}
+ .delete-button{
+  color: red;
+ }
+.custom-button {
+  border-radius: 3px;
+  border: 1px   white;
+  background-color: transparent;
+  border-color: white;
+}
+ 
+
+.global-delete {
+
+  background-color: #F47B84 
+  
+}
+
+.global-delete.active {
+  background-color: red;
+}
+.gdelete{
+  color:white;
+}
+.save-button{
+  background: #000080;
+  color: white;
+  border-color: #000080;
+}
+ 
+
+.pagination-container .pagination .page-item {
+  margin-right: 7px; 
+  font-weight: bold;
+   
+}
+.page-no {
+ 
+  margin-left:1050px;
+  margin-top:-25px;
+ 
+ }
+ input:focus {
+  outline-color: #007BFF;
+}
+input:hover {
+  background-color: #E8F0FE;
+}
+
+
+.row-count{
+  color:#696969;
+  margin-left:80px;
+  margin-top:-30px;
+ 
+  
+}
+ 
+#pageDropDown {
+  margin-top: 20px;
+ }
+ .selected-row {
+  background-color: rgb(73, 14, 14) !important;
+}
+ 
+ 

@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import TableComponent from './table';
 
-function App() {
+const App = () => {
+  const [tableData, setTableData] = useState([]);
+
+  useEffect(() => {
+    fetch('https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json')
+      .then(response => response.json())
+      .then(data => setTableData(data))
+      .catch(error => console.error('Error:', error));
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TableComponent data={tableData} setData={setTableData} />
     </div>
   );
-}
+};
 
 export default App;
