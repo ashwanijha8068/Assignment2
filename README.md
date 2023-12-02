@@ -1,4 +1,4 @@
-More information about my approach and the challenges faced:- https://dark-shield-55e.notion.site/Admin-Dashboard-3bc214bb876e4453ae3cd23288548689
+More information about my approach and the challenges faced:- https://shade-corleggy-c36.notion.site/Assignment-2-d4137ba3467c4adfab18302e53ce130f
 
 # Getting Started with Create React App
 
